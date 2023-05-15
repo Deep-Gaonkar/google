@@ -9,8 +9,6 @@ import Footer from "@/components/Footer";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import { Squares2X2Icon, MicrophoneIcon } from "@heroicons/react/24/solid";
 
-import profile from "../public/profile.png";
-
 export default function Home() {
   const router = useRouter();
   const searchInputRef = useRef(null);
